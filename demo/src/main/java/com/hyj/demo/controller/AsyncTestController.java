@@ -35,6 +35,7 @@ public class AsyncTestController {
         String result = stopWatch.prettyPrint();
         System.out.println("loading.....");
         System.out.println(result);
+        System.out.println("提交测试？");
         return "异步测试！";
     }
 }
